@@ -1,0 +1,24 @@
+{
+  "name": "nginx-to-gor-converter",
+  "version": "1.0.0",
+  "description": "Simple converter nginx logs to the goreplay format(.gor)",
+  "bin": {
+    "nginx-to-gor-converter": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nginx",
+    "logs",
+    "goreplay"
+  ],
+  "author": "Egor Vasilyev <egorvas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "7.2.0",
+    "moment": "2.29.1",
+    "nginxparser": "2.1.0"
+  }
+}
